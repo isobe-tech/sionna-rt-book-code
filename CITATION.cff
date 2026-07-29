@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "このサンプルコードを利用した場合は、本リポジトリと対応書籍を明記してください。"
+title: "Sionna RTによる電波伝搬レイトレーシング入門 サンプルコード"
+type: software
+authors:
+  - name: isobe
+version: 1.0.1
+date-released: 2026-07-28
+url: "https://github.com/isobe-tech/sionna-rt-book-code"
+repository-code: "https://github.com/isobe-tech/sionna-rt-book-code"
+license: MIT

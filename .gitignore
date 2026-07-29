@@ -1,0 +1,15 @@
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.venv/
+.venv-*/
+.python-version
+tmp/
+
+# Generated figures
+figs/**/*.png
+figs/**/*.pdf
+
+# Generated scene variants
+scenes/indoor_apartment/_partition_*.xml

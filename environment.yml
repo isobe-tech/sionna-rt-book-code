@@ -1,0 +1,12 @@
+name: sionna-rt-book
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - matplotlib
+  - jupyter
+  - ipykernel
+  - pip:
+      - sionna-rt==2.0.1
