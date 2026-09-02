@@ -86,8 +86,15 @@ class Scope(ast.NodeVisitor):
             self.free.append(n.id)
 
 
+# Both editions live in this repository. Check them both, so the English
+# notebooks do not slip past CI.
+NOTEBOOK_DIRS = ("notebooks", "notebooks_en")
+
+
 def main() -> None:
-    notebooks = sorted(Path("notebooks").glob("*.ipynb"))
+    notebooks = []
+    for directory in NOTEBOOK_DIRS:
+        notebooks.extend(sorted(Path(directory).glob("*.ipynb")))
     if not notebooks:
         raise SystemExit("No notebooks found")
 
