@@ -1,11 +1,20 @@
 cff-version: 1.2.0
-message: "このサンプルコードを利用した場合は、本リポジトリと対応書籍を明記してください。"
-title: "Sionna RTによる電波伝搬レイトレーシング入門 サンプルコード"
+message: "If you use this sample code, please cite this repository and the corresponding book. / このサンプルコードを利用した場合は、本リポジトリと対応書籍を明記してください。"
+title: "Sample code for the Sionna RT books (English and Japanese editions)"
 type: software
 authors:
   - name: isobe
-version: 1.0.1
-date-released: 2026-07-28
+version: 1.1.0
+date-released: 2026-09-02
 url: "https://github.com/isobe-tech/sionna-rt-book-code"
 repository-code: "https://github.com/isobe-tech/sionna-rt-book-code"
 license: MIT
+references:
+  - type: book
+    title: "Radio Propagation Ray Tracing with Sionna RT: A Hands-On Introduction with Python"
+    authors:
+      - name: isobe
+  - type: book
+    title: "Sionna RTによる電波伝搬レイトレーシング入門"
+    authors:
+      - name: isobe
